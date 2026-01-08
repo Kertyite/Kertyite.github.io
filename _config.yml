@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Seo Younggeon"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "I am currently pursuing a Master's degree in Industrial and Management Engineering. I am particularly interested in applying Physics-informed Machine Learning to Prognostics and Health Management (PHM) and Time-series Estimation problems."
+  location         : "Seoul"
+  employer         : "Hanyang University"
   uri              : # URL
   email            : "tjdudrjs8745@hanyang.ac.kr" 
 
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0009-0007-7334-4284"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -51,13 +51,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : # Url
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Url
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
