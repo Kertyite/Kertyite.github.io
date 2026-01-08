@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2025-01-03-pinn-battery-soh-korea
 excerpt: 'A framework for predicting lithium-ion battery State of Health using Physics-Informed Neural Networks, presented at the Korean Society for Reliability.'
-date: 2025-01-03
+date: 2025-06-19
 venue: 'Korean Society for Reliability (대한신뢰성학회)'
 slidesurl: ''
 paperurl: ''
