@@ -23,7 +23,7 @@ repository               : "Kertyite/Kertyite.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Seo Younggeon"
   pronouns         : # example: "she/her"  
   bio              : "I am currently pursuing a Master's degree in Industrial and Management Engineering. I am particularly interested in applying Physics-informed Machine Learning to Prognostics and Health Management (PHM) and Time-series Estimation problems."
