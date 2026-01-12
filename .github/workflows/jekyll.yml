@@ -39,6 +39,10 @@ jobs:
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: false # avoids GitHub Actions cache outages; slower installs but more reliable
+      - name: Install Bundler
+        run: gem install bundler
+      - name: Install Ruby dependencies
+        run: bundle install --jobs 4 --retry 3
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
