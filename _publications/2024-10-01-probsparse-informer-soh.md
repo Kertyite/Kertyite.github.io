@@ -5,10 +5,10 @@ category: conferences
 permalink: /publication/2024-10-01-probsparse-informer-soh
 excerpt: 'This paper proposes a robust SOH prediction method using ProbSparse Informer architecture for lithium-ion batteries.'
 date: 2024-10-01
-venue: '2025 IEEE Global Reliability & PHM Conference (PHM-Xi\'an)'
+venue: "2025 IEEE Global Reliability & PHM Conference (PHM-Xi'an)"
 slidesurl: ''
 paperurl: ''
-citation: 'Seo Y., Kim T., & Barde, S. (2025). &quot;Robust SOH Prediction for Lithium-Ion Batteries via ProbSparse Informer Architecture.&quot; In <i>2025 IEEE Global Reliability & PHM Conference (PHM-Xi\'an)</i>. Xi\'an, China.'
+citation: "Seo Y., Kim T., & Barde, S. (2025). &quot;Robust SOH Prediction for Lithium-Ion Batteries via ProbSparse Informer Architecture.&quot; In <i>2025 IEEE Global Reliability & PHM Conference (PHM-Xi'an)</i>. Xi'an, China."
 ---
 
 **Best Paper Award**
