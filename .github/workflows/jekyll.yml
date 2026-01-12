@@ -37,10 +37,15 @@ jobs:
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
+          ruby-version: '3.2' # Align with Dockerfile and avoid newer gem incompatibilities
           bundler-cache: false # avoids GitHub Actions cache outages; slower installs but more reliable
       - name: Install Bundler
-        run: gem install bundler
+        run: gem install bundler -v 2.3.26
+      - name: Ruby/Bundler versions
+        run: |
+          ruby -v
+          gem -v
+          bundle -v
       - name: Install Ruby dependencies
         run: bundle install --jobs 4 --retry 3
       - name: Setup Pages
@@ -48,7 +53,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build --trace --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
