@@ -4,7 +4,7 @@ collection: talks
 type: "Conference Presentation"
 permalink: /talks/2025-01-03-koras-presentation
 venue: "Korean Society for Reliability (대한신뢰성학회)"
-date: 2025-01-03
+date: 2025-06
 location: "South Korea"
 ---
 
