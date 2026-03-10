@@ -1,6 +1,7 @@
 ---
 title: "Edge-Compatible SOH Estimation for Li-Ion Batteries via Hybrid Knowledge Distillation and Model Compression"
 collection: publications
+publication_type: journal
 category: manuscripts
 permalink: /publications/2025-01-02-edge-soh-estimation/
 excerpt: 'This paper presents an edge-compatible SOH estimation method using hybrid knowledge distillation and model compression techniques.'

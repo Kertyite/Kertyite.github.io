@@ -1,6 +1,7 @@
 ---
 title: "Robust SOH Prediction for Lithium-Ion Batteries via ProbSparse Informer Architecture"
 collection: publications
+publication_type: conference
 category: conferences
 permalink: /publications/2025-10-01-probsparse-informer-soh/
 excerpt: 'This paper proposes a robust SOH prediction method using ProbSparse Informer architecture for lithium-ion batteries.'

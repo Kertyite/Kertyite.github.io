@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Battery SOH Prediction with Physics-Informed Neural Networks in Data-Scarce Environments"
 collection: publications
+publication_type: journal
 category: manuscripts
 permalink: /publications/2025-01-01-battery-soh-pinn/
 excerpt: 'This paper proposes a Physics-Informed Neural Network approach for battery State of Health prediction in data-scarce environments.'
