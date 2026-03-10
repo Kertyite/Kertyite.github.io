@@ -2,7 +2,7 @@
 title: "Hybrid Compression for Accurate End of Life Prediction on Edge Battery Management System"
 collection: publications
 category: conferences
-permalink: /publication/2025-10-02-hybrid-compression-eol
+permalink: /publications/2025-10-02-hybrid-compression-eol/
 excerpt: 'This paper develops a hybrid compression method for accurate End of Life prediction on edge Battery Management Systems.'
 date: 2025-01-04
 venue: '2025 IEEE Global Reliability & PHM Conference (PHM-Xi\'an)'
