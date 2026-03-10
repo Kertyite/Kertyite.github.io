@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm a Master's student in Industrial and Management Engineering at Hanyang University ERICA, advised by **Prof. Stephane Barde** at the [Industrial Operations & Data Analytics (IODA) Lab](https://sites.google.com/hanyang.ac.kr/ioda/home).
+Hi! I'm a Master's student in Industrial and Management Engineering at Hanyang University ERICA, advised by **Prof. Stephane Barde** at the [Industrial Operations & Data Analytics (IODA) Lab](https://iodalab.lovable.app/).
 
 My research focuses on **Prognostics and Health Management (PHM)** for lithium-ion batteries, with emphasis on deploying deep learning models on resource-constrained edge devices through model compression techniques. I am also actively researching **in-situ defect detection** and **component fatigue prediction** to enhance industrial reliability.
 
