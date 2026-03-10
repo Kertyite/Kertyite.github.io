@@ -11,20 +11,33 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign journal_papers = site.publications | where_exp: "post", "post.category == 'manuscripts' or post.categories contains 'manuscripts'" %}
-{% assign conference_papers = site.publications | where_exp: "post", "post.category == 'conferences' or post.categories contains 'conferences'" %}
+{% assign has_journal_papers = false %}
+{% assign has_conference_papers = false %}
 
-{% if journal_papers.size > 0 %}
+{% for post in site.publications %}
+  {% if post.category == 'manuscripts' or post.categories contains 'manuscripts' %}
+    {% assign has_journal_papers = true %}
+  {% endif %}
+  {% if post.category == 'conferences' or post.categories contains 'conferences' %}
+    {% assign has_conference_papers = true %}
+  {% endif %}
+{% endfor %}
+
+{% if has_journal_papers %}
   <h2>Journals</h2><hr />
-  {% for post in journal_papers reversed %}
-    {% include archive-single.html %}
+  {% for post in site.publications reversed %}
+    {% if post.category == 'manuscripts' or post.categories contains 'manuscripts' %}
+      {% include archive-single.html %}
+    {% endif %}
   {% endfor %}
 {% endif %}
 
-{% if conference_papers.size > 0 %}
+{% if has_conference_papers %}
   <h2>Conference Papers</h2><hr />
-  {% for post in conference_papers reversed %}
-    {% include archive-single.html %}
+  {% for post in site.publications reversed %}
+    {% if post.category == 'conferences' or post.categories contains 'conferences' %}
+      {% include archive-single.html %}
+    {% endif %}
   {% endfor %}
 {% endif %}
 
