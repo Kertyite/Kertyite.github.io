@@ -11,33 +11,20 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign has_journal_papers = false %}
-{% assign has_conference_papers = false %}
+{% assign journal_papers = site.publications | where: "publication_type", "journal" %}
+{% assign conference_papers = site.publications | where: "publication_type", "conference" %}
 
-{% for post in site.publications %}
-  {% if post.publication_type == 'journal' %}
-    {% assign has_journal_papers = true %}
-  {% endif %}
-  {% if post.publication_type == 'conference' %}
-    {% assign has_conference_papers = true %}
-  {% endif %}
-{% endfor %}
-
-{% if has_journal_papers %}
+{% if journal_papers.size > 0 %}
   <h2>Journals</h2><hr />
-  {% for post in site.publications reversed %}
-    {% if post.publication_type == 'journal' %}
-      {% include archive-single.html %}
-    {% endif %}
+  {% for post in journal_papers reversed %}
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
-{% if has_conference_papers %}
+{% if conference_papers.size > 0 %}
   <h2>Conference Papers</h2><hr />
-  {% for post in site.publications reversed %}
-    {% if post.publication_type == 'conference' %}
-      {% include archive-single.html %}
-    {% endif %}
+  {% for post in conference_papers reversed %}
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
