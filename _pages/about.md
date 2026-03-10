@@ -16,9 +16,10 @@ My research focuses on **Prognostics and Health Management (PHM)** for lithium-i
 - Prognostics and Health Management (PHM)
 - Time-Series Forecasting
 - Physics-Informed Neural Networks
-- Additive Manufacturing
+- In-situ defect detection
 
-## News
+## 소식
+- **2026.03** 🎓 석사우수 장학금(이공계) 최종 선정 (과학기술정보통신부 & 한국장학재단)
 - **2025.12** 🏆 Minister of Science and ICT Award – Excellence Scholarship for Master's Students in Science and Engineering
 - **2025.12** 🏆 Grand Prize at Factory Hack Korea 2025 (Ministry of Trade, Industry and Resources)
 - **2025.11** 📄 Paper published in *Journal of Energy Storage* (Co-Author)
