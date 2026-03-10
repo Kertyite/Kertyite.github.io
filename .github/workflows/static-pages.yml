@@ -21,12 +21,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Prepare static artifact
         run: |
           mkdir -p site
           shopt -s dotglob
           for item in * .*; do
-            if [ "$item" = "." ] || [ "$item" = ".." ] || [ "$item" = ".git" ] || [ "$item" = ".github" ]; then
+            if [ "$item" = "." ] || [ "$item" = ".." ] || [ "$item" = ".git" ] || [ "$item" = ".github" ] || [ "$item" = "site" ]; then
               continue
             fi
             cp -R "$item" site/
