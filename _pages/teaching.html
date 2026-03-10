@@ -7,6 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p>This page will be updated as formal teaching, tutorials, and mentoring activities are added. Current academic activity has focused primarily on research presentations, seminar participation, and project-based technical work.</p>
+
+{% if site.teaching and site.teaching.size > 0 %}
+  {% for post in site.teaching reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p>No formal teaching appointments are listed yet.</p>
+{% endif %}

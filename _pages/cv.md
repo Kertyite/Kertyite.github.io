@@ -11,35 +11,30 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Industrial and Management Engineering, Hanyang University ERICA, 2025 - Present
+* B.S. in Applied Mathematics, Hanyang University ERICA, 2020 - 2025
+* B.S. in Computer Science (Double Major), Hanyang University ERICA, 2021 - 2025
 
-Work experience
+Research interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Prognostics and Health Management for lithium-ion batteries
+* Battery state-of-health estimation
+* Physics-Informed Neural Networks
+* Time-series forecasting
+* Edge AI and model compression
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research and industry experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Intern, CMES AI ROBOTICS, Mar - Jun 2024
+  * Developed a Human Action Recognition and safety monitoring model demonstrated at KOREA MAT 2024.
+  * Investigated model architectures for improved small object detection performance.
+  * Participated in technical seminars reviewing recent computer vision research.
+
+Honors and awards
+======
+* Best Paper Award, IEEE Global Reliability and PHM Conference, 2025
+* Excellence in Presentation Award, Korean Reliability Society Spring Conference, 2025
+* Excellence Scholarship for Master's Students in Science and Engineering, 2025
 
 Publications
 ======
@@ -79,10 +74,16 @@ Talks
   
 Teaching
 ======
+  {% if site.teaching and site.teaching.size > 0 %}
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  {% else %}
+  No formal teaching appointments listed yet.
+  {% endif %}
   
-Service and leadership
+Professional links
 ======
-* Currently signed in to 43 different slack teams
+* [Google Scholar](https://scholar.google.com/citations?user=zrN7X3gAAAAJ&hl=ko)
+* [ORCID](https://orcid.org/0009-0007-7334-4284)
+* [GitHub](https://github.com/Kertyite)

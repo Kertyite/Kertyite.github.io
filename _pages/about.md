@@ -11,10 +11,13 @@ Hi! I'm a Master's student in Industrial and Management Engineering at Hanyang U
 
 My research focuses on **Prognostics and Health Management (PHM)** for lithium-ion batteries, with emphasis on deploying deep learning models on resource-constrained edge devices through model compression techniques. I am also actively researching **in-situ defect detection** and **component fatigue prediction** to enhance industrial reliability.
 
+My current work is centered on battery state-of-health estimation, physics-informed learning, and compact models that can operate reliably on edge battery management systems. I am interested in research that balances predictive accuracy with interpretability, computational efficiency, and deployability in real industrial settings.
+
 ## Research Interests
 
 - Prognostics and Health Management (PHM)
 - Time-Series Forecasting
+- Edge AI and Model Compression
 - Physics-Informed Neural Networks
 - Additive Manufacturing
 
@@ -34,6 +37,13 @@ My research focuses on **Prognostics and Health Management (PHM)** for lithium-i
 - **T. Kim, Y. Seo, S. Barde**, "Edge-compatible SOH Estimation for Li-ion Batteries via Hybrid Knowledge Distillation and Model Compression," *Journal of Energy Storage*, 2025.
 
 See [Publications](/publications/) for the complete list.
+
+## Links
+
+- [Google Scholar](https://scholar.google.com/citations?user=zrN7X3gAAAAJ&hl=ko)
+- [ORCID](https://orcid.org/0009-0007-7334-4284)
+- [GitHub](https://github.com/Kertyite)
+- [CV](/cv/)
 
 ## Education
 
