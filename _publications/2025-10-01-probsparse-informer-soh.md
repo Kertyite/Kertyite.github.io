@@ -1,10 +1,22 @@
 ---
 title: "Robust SOH Prediction for Lithium-Ion Batteries via ProbSparse Informer Architecture"
-description: "Best paper awarded SOH prediction work presented at PHM-Xi'an 2025."
-year: 2025
-authors: "Seo Y., Kim T., Barde S."
-venue: "2025 IEEE Global Reliability & PHM Conference (PHM-Xi'an), Xi'an, China"
-award: "Best Paper Award"
+collection: publications
+category: conferences
+permalink: /publication/2025-10-01-probsparse-informer-soh
+excerpt: 'This paper proposes a robust SOH prediction method using ProbSparse Informer architecture for lithium-ion batteries.'
+date: 2025-10-01
+venue: "2025 IEEE Global Reliability & PHM Conference (PHM-Xi'an)"
+slidesurl:
+paperurl:
+citation: "Seo Y., Kim T., & Barde, S. (2025). &quot;Robust SOH Prediction for Lithium-Ion Batteries via ProbSparse Informer Architecture.&quot; In <i>2025 IEEE Global Reliability & PHM Conference (PHM-Xi'an)</i>. Xi'an, China."
 ---
 
-This study presents a robust state-of-health prediction method for lithium-ion batteries using the ProbSparse Informer architecture.
+**Best Paper Award**
+
+This study presents a robust State of Health (SOH) prediction method for lithium-ion batteries using the ProbSparse Informer architecture, which effectively captures long-term dependencies in battery degradation patterns.
+
+**Authors:** Seo Y., Kim T., Barde S.
+
+**Presented at:** 2025 IEEE Global Reliability & PHM Conference (PHM-Xi'an), Xi'an, China
+
+**Award:** Best Paper Award
