@@ -7,5 +7,3 @@ venue: "Korean Society for Reliability (대한신뢰성학회)"
 date: 2025-06-01
 location: "South Korea"
 ---
-
-**Authors:** Seo Younggeon, Barde S.

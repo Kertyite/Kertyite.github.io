@@ -7,5 +7,3 @@ venue: "2025 IEEE Global Reliability & PHM Conference (PHM-Xi'an)"
 date: 2025-10-02
 location: "Xi'an, China"
 ---
-
-**Authors:** Kim T., Seo Y., Barde S.

@@ -9,5 +9,3 @@ location: "Xi'an, China"
 ---
 
 **Best Paper Award** 🏆
-
-**Authors:** Seo Y., Kim T., Barde S.
