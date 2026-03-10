@@ -11,8 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign journal_papers = site.publications | where: "category", "manuscripts" %}
-{% assign conference_papers = site.publications | where: "category", "conferences" %}
+{% assign journal_papers = site.publications | where_exp: "post", "post.category == 'manuscripts' or post.categories contains 'manuscripts'" %}
+{% assign conference_papers = site.publications | where_exp: "post", "post.category == 'conferences' or post.categories contains 'conferences'" %}
 
 {% if journal_papers.size > 0 %}
   <h2>Journals</h2><hr />
