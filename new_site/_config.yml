@@ -1,0 +1,10 @@
+title: "Kertyite"
+description: "Minimal reset site"
+baseurl: ""
+url: "https://kertyite.github.io"
+theme: minima
+markdown: kramdown
+
+collections:
+  publications:
+    output: true
