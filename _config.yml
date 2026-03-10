@@ -1,0 +1,17 @@
+title: "Seo Younggeon"
+description: "Research portfolio for Seo Younggeon"
+url: "https://kertyite.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+collections:
+  publications:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: publication

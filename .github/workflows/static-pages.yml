@@ -1,4 +1,4 @@
-name: Deploy static site
+name: Deploy Jekyll site
 
 on:
   push:
@@ -24,21 +24,20 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Prepare static artifact
-        run: |
-          mkdir -p site
-          shopt -s dotglob
-          for item in * .*; do
-            if [ "$item" = "." ] || [ "$item" = ".." ] || [ "$item" = ".git" ] || [ "$item" = ".github" ] || [ "$item" = "site" ]; then
-              continue
-            fi
-            cp -R "$item" site/
-          done
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --destination ./_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: ./_site
+
 
   deploy:
     environment:

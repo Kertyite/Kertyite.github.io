@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="page-shell page-shell-narrow">
+  <header class="subpage-header">
+    <a class="back-link" href="{{ '/publications/' | relative_url }}">Back to Publications</a>
+    <p class="eyebrow">Publication</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{{ page.authors }}</p>
+  </header>
+
+  <main class="publication-list">
+    <article class="publication-card">
+      <p class="pub-year">{{ page.year }}</p>
+      <p class="pub-meta">{{ page.authors }}</p>
+      <p class="pub-meta">{{ page.venue }}</p>
+      {% if page.award %}
+      <p class="pub-badge">{{ page.award }}</p>
+      {% endif %}
+      <div class="publication-body">
+        {{ content }}
+      </div>
+    </article>
+  </main>
+</div>
