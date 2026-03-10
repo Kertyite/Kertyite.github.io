@@ -11,15 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- DEBUG: Total publications: {{ site.publications.size }} -->
-{% for post in site.publications %}
-  <!-- DEBUG: title="{{ post.title }}" publication_type="{{ post.publication_type }}" url="{{ post.url }}" -->
-{% endfor %}
-
 {% assign journal_papers = site.publications | where: "publication_type", "journal" %}
 {% assign conference_papers = site.publications | where: "publication_type", "conference" %}
-
-<!-- DEBUG: journal_papers={{ journal_papers.size }} conference_papers={{ conference_papers.size }} -->
 
 {% if journal_papers.size > 0 %}
   <h2>Journals</h2><hr />
