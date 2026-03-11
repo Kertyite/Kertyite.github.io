@@ -7,8 +7,44 @@ author_profile: true
 
 {% include base_path %}
 
+<h2>Introduction</h2>
 
-{% for post in site.portfolio %}
+<table style="border: none; border-collapse: collapse;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 20px;">
+      <h3>Research Interests</h3>
+      <ul>
+        <li>Prognostics & Health Management (PHM)</li>
+        <li>Physics-Informed Neural Networks (PINN)</li>
+        <li>Battery SOH Estimation & RUL Prediction</li>
+        <li>Time-Series Forecasting</li>
+      </ul>
+
+      <h3>Education</h3>
+      <ul>
+        <li>Hanyang University ERICA, B.S. in Applied Mathematics, 2020.03 – 2025.02</li>
+        <li>Hanyang University ERICA, B.S. in Computer Science (Double Major), 2021.03 – 2025.02</li>
+        <li>Hanyang University, M.S. in Industrial & Management Engineering, 2025.03 – 2027.02 (Expected)</li>
+      </ul>
+
+      <h3>Experience</h3>
+      <ul>
+        <li>CMES AI ROBOTICS Internship, 2024.03 – 2024.06</li>
+        <li>IODA Lab Undergraduate Researcher, 2023.04 – 2025.02</li>
+      </ul>
+
+      <h3>Research Projects</h3>
+      <ul>
+        <li>Manufacturing Innovation Professional Training Program for Industrial AI, Research Assistant, KETI, 2025.03 –</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<hr/>
+
+<h2>Research</h2>
+
+{% for post in site.portfolio reversed %}
   {% include archive-single.html %}
 {% endfor %}
-

@@ -1,7 +1,29 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Enhancing Battery SOH Prediction with Butler-Volmer Informed Neural Networks in Data-Scarce Environments"
+excerpt: "Published in *Energy* (IF: 9.4, JCR Top 4%) / 1st Author"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+**Journal:** *Energy*, 335, 138316 (2025)
+**Role:** 1st Author
+**DOI:** [https://doi.org/10.1016/j.energy.2025.138316](https://doi.org/10.1016/j.energy.2025.138316)
+
+## Abstract
+
+This study proposes BVINN (Butler-Volmer Informed Neural Network), a physics-informed machine learning framework that directly incorporates the Butler-Volmer equation into the neural network training process for lithium-ion battery SOH prediction. Experiments on NASA and BIT datasets demonstrate that BVINN achieves high accuracy and physical validity even in data-scarce environments.
+
+## Problem & Solution
+
+| Problem | Limitation of Existing Methods | Solution |
+|---------|-------------------------------|----------|
+| Battery stability and lifespan management have become critical due to climate change and EV adoption | Physics-based and data-driven models lack interpretability or generalization, especially with limited data | BVINN incorporates electrochemical principles directly into learning via physics-informed regularization |
+
+## Methodology
+
+BVINN incorporates the Butler-Volmer equation as a physics-informed regularization term in the loss function:
+
+- **Data Loss (L_data):** Minimizes difference between actual data and predictions
+- **Butler-Volmer Loss (L_BV):** Enforces consistency with Butler-Volmer equation-based current-capacity relationship
+- **Initial Condition Loss (L_IC):** Ensures initial values at the first cycle
+- **Boundary Condition Loss (L_BC):** Reflects boundary conditions at the last cycle
+- **Regeneration Loss (L_regen):** Captures temporary capacity recovery (Capacity Regeneration)
